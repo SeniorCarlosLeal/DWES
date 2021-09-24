@@ -1,0 +1,17 @@
+
+p{
+  text-align: center;
+}
+
+#proceso{
+  border: 1px solid black;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+#resultado{
+  margin-top: 2%;
+  border: 1px solid black;
+  margin-right: 30%;
+  margin-left: 30%;
+}
