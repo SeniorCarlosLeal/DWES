@@ -1,0 +1,16 @@
+table,th,td{
+  text-align: center;
+width:30%;
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+.nombreEmpresa{
+  background-color: yellow;
+  font-size: 1rem;
+}
+
+.valores{
+  background-color: coral;
+  color:white;
+}
