@@ -1,0 +1,98 @@
+table,th,td{
+  border-collapse: collapse;
+  border:2px solid black;
+
+}
+
+.ganador{
+  padding:1%;
+  width: 30%;
+  border: 1px solid black;
+  float: none;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+}
+
+b{
+  color:red;
+}
+
+div{
+  margin-top: 40px;
+  border:1px solid black;
+  padding: 20px;
+  width: 300px;
+  margin-left: 10%;
+  margin-right: 1px;
+}
+
+p{
+  background-color: yellow;
+  color:black;
+}
+
+h1{
+  margin-top: 350px;
+}
+
+#inicio{
+  background-color: #31F7F4;
+  padding: inherit;
+  width: 98%;
+  margin-left: 1px;
+  margin-right: none;
+  border: none;
+  text-align: left;
+}
+
+.uno{
+  font-family:"Comic Sans MS";
+  font-style: italic;
+  font-weight: bold;
+  background-color: inherit;
+  font-size:100pt;
+  color:#FF03E4;
+  text-shadow: 20px 2px white;
+  position: relative;
+   animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 1px;}
+  to {left: 1000px;}
+}
+.uno::first-letter{
+  font-size: 202pt;
+  font-family: "Comic Sans MS";
+  color:white;
+  text-shadow: 20px 2px #FF03E4;
+}
+
+#j1{
+  float:left;
+
+}
+
+#j2{
+  float: left;
+  margin-left: 20px;
+}
+
+#j3{
+  float: left;
+  margin-left: 20px;
+}
+
+#j4{
+  float: left;
+  margin-left: 20px;
+}
+
+#bolas{
+  margin-top: 20px;
+  padding:40px;
+  width: 70%;
+}

@@ -1,0 +1,45 @@
+table,th,td{
+  border:2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img{
+  width: 30px;
+  height: 40px;
+}
+
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: white;
+  text-decoration: underline;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom:  40%;
+    width: 10%
+  }
+
+  to {
+    margin-right:  0%;
+    width: 100%;
+  }
+}
+
+#puntuaciones{
+  border:2px solid black;
+  width: 40%;
+  padding-bottom: 2%;
+  background-color: #B2A4EE;
+  margin-bottom: 3%;
+}
+
+#ganador{
+  border:2px solid black;
+  width: 40%;
+  padding-bottom: 2%;
+  background-color: #B2A4EE;
+}
