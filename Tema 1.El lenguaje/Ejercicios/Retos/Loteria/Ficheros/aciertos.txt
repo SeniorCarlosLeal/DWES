@@ -1,9 +1,0 @@
-Acertantes 0 numeros: 87
-Acertantes  1 numeros  13
-Acertantes  2 numeros  0
-Acertantes  3 numeros  0
-Acertantes  4 numeros  0
-Acertantes  5 numeros  0
-Acertantes  5  numeros y Complementario: 0
-Acertantes  6 numeros : 0
-Acertantes reintegro numeros : 10
