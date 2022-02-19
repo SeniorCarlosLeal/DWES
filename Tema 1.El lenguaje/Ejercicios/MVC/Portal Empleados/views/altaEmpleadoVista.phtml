@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <center>
+    <form action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method = "post">
+      Nombre <input type="text" name="name" value=""><br><br>
+      Apellido <input type="text" name="lastName" value=""><br><br>
+      Genero: <input type="radio" name="mf" value="M">Hombre <input type="radio" name="mf" value="F"> Mujer<br><br>
+      Fecha nacimiento <input type="date" name="date" value=""><br><br>
+      Departamento <select name="depart">        
+        <?php foreach ($departamentos->fetchAll() as $row) { ?>
+          <option value="<?php echo $row["dept_no"] ?>"><?php echo $row["dept_name"];?></option>
+        <?php } ?>
+      </select><br><br>
+      Salario <input type="text" name="salary" value=""><br><br>
+      Cargo <select name="cargo">
+        <?php foreach ($cargos->fetchAll() as $row) { ?>
+          <option value="<?php echo $row["title"] ?>"><?php echo $row["title"];?></option>
+        <?php } ?>
+      </select><br><br>
+      <input type="submit" name="altaEmp" value="Dar de alta"/>
+    </form>
+  </center>
+</body>
+</html>
