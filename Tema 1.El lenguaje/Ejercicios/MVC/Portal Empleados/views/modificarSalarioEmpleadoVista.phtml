@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <center>
+    <form action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method = "post">
+      Nº Empleado <input type="text" name="numEmpleado" value=""><br><br>
+      Nuevo sueldo <input type="text" name="newSalary" value=""><br><br>
+      <input type="submit" name="comprobar" value="Actualizar"/>
+    </form>
+  </center>
+</body>
+</html>
