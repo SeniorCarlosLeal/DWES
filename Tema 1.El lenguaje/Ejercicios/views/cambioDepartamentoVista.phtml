@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <center>
+      <form action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method = "post">
+        Nº Empleado <input type="text" name="numEmpleado" value=""><br><br>
+        Nuevo Departamento <select class="" name="newDepartment">
+          <?php foreach ($departamentos->fetchAll() as $row) { ?>
+            <option value="<?php echo $row["dept_no"] ?>"><?php echo $row["dept_name"];?></option>
+          <?php } ?>
+        </select><br><br>
+        <input type="submit" name="cambiar" value="Cambiar departamento">
+      </form>
+    </center>
+  </body>
+</html>
